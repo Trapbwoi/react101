@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+
+.navbar li {
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar div {
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
